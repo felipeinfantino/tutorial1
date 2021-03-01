@@ -6,6 +6,10 @@ body, html{
     overflow: hidden;
     background-color: #F5F5F5;
 }
+h2{
+    margin: 10px;
+    text-align: center;
+}
 input[type="file"] {
     display: none;
 }

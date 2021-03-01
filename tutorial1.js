@@ -42,8 +42,9 @@ window.onload = () => {
     })
     document.getElementById("uploadInput").addEventListener("change", newFileUpload);
     document.getElementById("downloadBtn").addEventListener("click", () => downloadAsSVG());
-
 }
+
+
 
 // Functions to update the global variables when slider changes
 function rotationAngleSliderChanged(event) {

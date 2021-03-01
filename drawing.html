@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <!-- Load the Paper.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.11/paper-full.min.js"
+        integrity="sha512-ehNJ9gpOQJn8EYlA3P1zUtfrh97G/6WNsjfPfpnMxbo6PX6UXHRj8Ny5MCd36w2eTPlvOSVuXLZmY+/VLVhI4A=="
+        crossorigin="anonymous"></script>
+    <!-- Import the code -->
+    <script src="drawing.js" ></script>
+</head>
+
+<body>
+    <h2>Acrylicode's drawing tool</h2>
+    <div class="row h-75 m-5">
+        <div class="col-9 h-100">
+            <canvas class="w-100 h-100" id="myCanvas" style="border:1px solid"></canvas>
+        </div>
+        <div class="col-3">
+            <div class="row">
+                <label class="custom-file-upload m-1">
+                    <button style="display: none;" id="clearBtn"></button>
+                    Clear
+                </label>
+                <label class="custom-file-upload m-1">
+                    <button style="display: none;" id="downloadBtn"></button>
+                    Save SVG
+                </label>
+                <a href="index.html" style="color: black;">
+                    <label class="custom-file-upload m-1">
+                        Harmonize
+                    </label>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
