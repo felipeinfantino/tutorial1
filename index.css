@@ -6,7 +6,7 @@ body, html{
     overflow: hidden;
     background-color: #F5F5F5;
 }
-h2{
+h2, h6{
     margin: 10px;
     text-align: center;
 }
