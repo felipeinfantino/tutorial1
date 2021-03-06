@@ -31,7 +31,7 @@ window.onload = () => {
     scalingFactor = scalingFactorSlider.value;
 
     // load default svg
-    const defaultSVG = 'shape.svg';
+    const defaultSVG = './../shape.svg';
     loadSVG(defaultSVG);
 
     // add keyboard listener to save the svg when user press 's'
